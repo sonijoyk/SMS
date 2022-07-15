@@ -62,3 +62,23 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Steps to run the Project
+
+Clone the project from https://github.com/sonijoyk/SMS.git
+change to the root directory of the project
+update composer by run 'composer update' in terminal window
+rename the .env.example file to .env and update the database name and APP Name
+Then run php artisn migrate to create database tables
+Then run php artisan serve to start the development server
+Make sure the followings are enabled in your system
+    PHP >= 7.3
+    BCMath PHP Extension
+    Ctype PHP Extension
+    Fileinfo PHP Extension
+    JSON PHP Extension
+    Mbstring PHP Extension
+    OpenSSL PHP Extension
+    PDO PHP Extension
+    Tokenizer PHP Extension
+    XML PHP Extension
